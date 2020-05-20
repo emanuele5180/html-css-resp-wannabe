@@ -2,20 +2,51 @@
 @media screen and (max-width: 419px){
 
   .h1 {
-    width: 100%;
+
+    padding-top: 30px;
+
     
+
 
   }
 
   .row {
     width: 100%;
 
+
+
   }
+
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: none;
+    color: white;
+
+  }
+
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    /* float: left; */
+    width: 100%;
+  }
+
+
+  img {
+    height: 50px;
+    width: auto;
+    margin: 30px auto 0 auto;
+
+  }
+
+
+  .container {
+    padding: 0 10% 10% 10%;
+    background-color: rgb(93, 137, 179);
+    border-radius: 10px;
 
   }
 
